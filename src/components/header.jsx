@@ -79,10 +79,10 @@ export default function Header() {
           {/* Navigation Buttons */}
           <div className="flex gap-3">
             <button
-              onClick={() => navigate("/kiosk")}
+              onClick={() => navigate("/admin")}
               className="bg-white text-black px-4 py-2 rounded-lg shadow font-semibold hover:bg-gray-200 transition"
             >
-              Kiosk View
+              Admin View
             </button>
 
             <button
