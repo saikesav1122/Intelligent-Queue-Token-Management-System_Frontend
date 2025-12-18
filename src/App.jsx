@@ -4,6 +4,9 @@ import TokenGenerated from "./pages/tokenGenerated";
 import TokenPopup from "./pages/tokenPopup";
 import NowServing from "./pages/nowServing";
 import KioskDashboard from "./pages/kioskDashboard";
+import Counter from "./pages/counter";
+import Admin from "./pages/admin";
+
 
 function App() {
   return (
@@ -14,6 +17,8 @@ function App() {
         <Route path="/token" element={<TokenGenerated />} />
         <Route path="/now-serving" element={<NowServing />} />
         <Route path="/token-popup" element={<TokenPopup />} />
+        <Route path="/counter" element={<Counter />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   );
