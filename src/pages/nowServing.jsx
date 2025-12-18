@@ -229,9 +229,15 @@ export default function NowServing() {
             <div className="text-8xl font-bold mb-4 animate-pulse">
               {nowServing}
             </div>
-            <p className="text-xl opacity-90 flex items-center justify-center gap-2">
-              <span>→</span> Please proceed to counter
-            </p>
+            <button
+  onClick={() => navigate('/counter')}
+  className="mt-4 px-8 py-3 text-lg font-semibold rounded-full
+             bg-yellow-400 text-black hover:bg-yellow-300
+             transition flex items-center gap-2 mx-auto"
+>
+  <span>→</span> Proceed to Counter
+</button>
+
           </div>
         </div>
       </div>
